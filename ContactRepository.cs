@@ -5,7 +5,7 @@
     {
         public ContactRepository()
         {
-
+            var contactRepository = new ContactRepository();
             var contact1 = new Contact
             {
                 FirstName = "Andie",
@@ -37,7 +37,6 @@
                 EmailAddress = "JPatton@hotmail.com",
                 PhoneNumber = "502-441-9970"
             };
-
         }
     }
 }

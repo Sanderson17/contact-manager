@@ -1,5 +1,4 @@
 ﻿using System;
-using LINQ;
 
 namespace contact_manager
 {
@@ -7,17 +6,16 @@ namespace contact_manager
     {
         static void Main(string[] args)
         {
-
-            var contact = new Contact();
-
-            vm.totalContacts();
-
-            addContact();
-
-            removeContact();
-
-            Console.WriteLine("Please select a task to run (Show total # of contacts, Add contact, Remove contact, or Exit Program:");
+            Console.WriteLine("Please select a task to run (Show all contacts, Add contact, Remove contact, or Exit Program:");
             var selectedTask = Console.ReadLine();
+
+            ShowAllContacts(); //add method code to customer class
+
+            AddContact(); //add method code to customer class
+
+            RemoveContact(); //add method code to customer class
+
+            ExitProgram(); //add method code to customer class to quit 
 
         }
     }
