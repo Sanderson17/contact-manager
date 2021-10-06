@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace contact_manager
+﻿namespace contact_manager
 
 {
+    // Contact is the class I created to meet project basic requirement add 1 class
+
     public class Contact
     {
 
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        // Contact is the implicit object I created to meet project basic requirement add 1 object
+
+        public string FullName { get; set; }
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
 
-        public bool Validate()
+        public bool Validate() //not working
         {
             var isValid = true;
             if (PhoneNumber == null) isValid = false;
@@ -20,29 +20,6 @@ namespace contact_manager
 
             return isValid;
         }
-
-        public List<Contact> ShowAllContacts()
-        {
-            //add code to show complete list of customers
-
-            return new List<Contact>();
-        }
-
-        public static void AddContact()
-        {
-            //add code to add a contact
-        }
-
-        public static void RemoveContact()
-        {
-            //add code to remove a contact
-        }
-
-        public static void ExitProgram()
-        {
-            //add code to exit program
-        }
-    }
-    
+    }   
 }
 
