@@ -12,7 +12,7 @@
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
 
-        public bool Validate() //not working
+        public bool Validate() //not working - want to have validations requiring values to be entered for these, MAYBE try to validate format entered
         {
             var isValid = true;
             if (PhoneNumber == null) isValid = false;
