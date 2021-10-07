@@ -5,7 +5,6 @@
 
     public class Contact
     {
-
         // Contact is the implicit object I created to meet project basic requirement add 1 object
 
         public string FullName { get; set; }

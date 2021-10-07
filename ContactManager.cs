@@ -61,6 +61,7 @@ namespace contact_manager
         }
 
         //my LINQ method checks the contacts list for the first instance of the full name entered by the user for project feature requirement use a LINQ query to retrieve information from a list
+
         public static void RemoveContact()
         {
             Console.WriteLine("\nEnter the full name of the contact you would like to remove.");
@@ -73,11 +74,9 @@ namespace contact_manager
                 Console.ReadLine();
                 return;
             }
-            
                 Contacts.Remove(contact);
-                Console.WriteLine("\nContact removed. \n"Hit 'Enter' to return to the menu.");
+                Console.WriteLine("\nContact removed. \nHit 'Enter' to return to the menu.");
                 Console.ReadLine();   
-      
         }
 
         static void Main(string[] args)
@@ -108,7 +107,6 @@ namespace contact_manager
                         break;
                 }
             }
-
             while (!exitProgram);
         }
     }
