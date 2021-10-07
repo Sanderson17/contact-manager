@@ -26,6 +26,7 @@ namespace contact_manager
             contact.PhoneNumber = Console.ReadLine();
 
             Contacts.Add(contact);
+
             Console.WriteLine("\nContact added. \n\nHit 'Enter' to return to the menu.");
             Console.ReadLine();
         }
@@ -68,13 +69,13 @@ namespace contact_manager
 
             if (contact == null)
             {
-                Console.WriteLine("\nSorry, the contact could not be found. Press 'Enter' to return to the menu.");
+                Console.WriteLine("\nSorry, the contact could not be found. \nHit 'Enter' to return to the menu.");
                 Console.ReadLine();
                 return;
             }
             
                 Contacts.Remove(contact);
-                Console.WriteLine("\nContact removed. \n\"Hit 'Enter' to return to the menu.");
+                Console.WriteLine("\nContact removed. \n"Hit 'Enter' to return to the menu.");
                 Console.ReadLine();   
       
         }
