@@ -16,13 +16,13 @@ namespace contact_manager
         {
             Contact contact = new();
 
-            Console.Write("\nEnter Full Name: ");
+            Console.WriteLine("\nEnter Full Name: ");
             contact.FullName = Console.ReadLine();
 
-            Console.Write("Enter Email Address: ");
+            Console.WriteLine("Enter Email Address: ");
             contact.EmailAddress = Console.ReadLine();
 
-            Console.Write("Enter Phone Number: ");
+            Console.WriteLine("Enter Phone Number: ");
             contact.PhoneNumber = Console.ReadLine();
 
             Contacts.Add(contact);
