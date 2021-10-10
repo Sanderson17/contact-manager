@@ -61,7 +61,7 @@ namespace contact_manager
                 Console.ReadLine();
                 return;
             }
-
+   
             Console.WriteLine("\nCurrent contacts:\n");
             foreach (var contact in Contacts)
             {
