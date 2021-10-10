@@ -1,6 +1,6 @@
 # contact-manager
 
-My C# project is a contact manager application that creates a list of contacts by allowing contacts to be added or removed and can display all contacts added or give the user the option to exit the program; the list clears when the program is exited.
+My C# project is a contact manager application that creates a list of contacts by presenting a task list where the user can select to add a contact, to remove a contact, to display all contacts that have been added or to exit the program; the list clears when the program is exited.
 
 # Basic Requirements
 
@@ -27,4 +27,4 @@ My C# project is a contact manager application that creates a list of contacts b
 
 # Special Instructions
 
-* This program is case sensitive. When selecting a task to run, make sure to use all lowercase letters for your selection.
+* This program is case sensitive. When selecting a task to run, make sure to use all lowercase letters with proper spacing for your selection.
