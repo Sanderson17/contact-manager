@@ -10,7 +10,7 @@ namespace contact_manager
 
             do
             {
-                Console.WriteLine("\nPlease select a task to run (add contact, remove contact, display contacts or exit program): ");
+                Console.WriteLine("Please select a task to run (add contact, remove contact, display contacts or exit program): ");
                 string selection = Console.ReadLine();
 
                 switch (selection)
@@ -27,7 +27,7 @@ namespace contact_manager
                     case "exit program":
                         exitProgram = true;
                         break;
-                    default: Console.WriteLine("Sorry that's not a valid option.");
+                    default: Console.WriteLine("\nSorry that is not a valid option.\n");
                         break;
                 }
             }

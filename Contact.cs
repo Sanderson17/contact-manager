@@ -5,33 +5,33 @@ using System.Linq;
 namespace contact_manager
 
 {
-    // Contact is the class I created to meet project basic requirement add 1 class
+    // Contact is the class created to meet project basic requirement 'add 1 class'
 
     public class Contact
     {
-        // this is the list my app creates for project feature requirement add a list
+        // this is the list my app creates for project feature requirement 'add a list'
 
         public static List<Contact> Contacts = new();
 
-        // Contact is the implicit object I created to meet project basic requirement add 1 object
+        // Contact is the implicit object created to meet project basic requirement 'add 1 object'
 
         public string FullName { get; set; }
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
 
-        // the 1st method to meet the basic requirement add 3 methods
+        // the 1st method to meet the basic requirement 'add 3 methods'
 
         public static void AddContact()
         {
             Contact contact = new();
 
-            Console.WriteLine("\nEnter Full Name: ");
+            Console.Write("\nEnter Full Name: ");
             contact.FullName = Console.ReadLine();
 
-            Console.WriteLine("Enter Email Address: ");
+            Console.Write("Enter Email Address: ");
             contact.EmailAddress = Console.ReadLine();
 
-            Console.WriteLine("Enter Phone Number: ");
+            Console.Write("Enter Phone Number: ");
             contact.PhoneNumber = Console.ReadLine();
 
             Contacts.Add(contact);
@@ -40,7 +40,7 @@ namespace contact_manager
             Console.ReadLine();
         }
 
-        // the 2nd method to meet the basic requirement add 3 methods and feature requirement visual data representation
+        // the 2nd method to meet the basic requirement 'add 3 methods' and feature requirement 'visual data representation'
 
         public static void DisplayContact(Contact contact)
         {
@@ -51,7 +51,7 @@ namespace contact_manager
             Console.WriteLine("*******************************************");
         }
 
-        // the 3rd method to meet the basic requirement add 3 methods
+        // the 3rd method to meet the basic requirement 'add 3 methods'
 
         public static void DisplayContacts()
         {
@@ -61,7 +61,7 @@ namespace contact_manager
                 Console.ReadLine();
                 return;
             }
-   
+
             Console.WriteLine("\nCurrent contacts:\n");
             foreach (var contact in Contacts)
             {
@@ -71,7 +71,7 @@ namespace contact_manager
             Console.ReadLine();
         }
 
-        //my LINQ method checks the contacts list for the first instance of the full name entered by the user for project feature requirement use a LINQ query to retrieve information from a list
+        //my LINQ method checks the contacts list for the first instance of the full name entered by the user for project feature requirement 'use a LINQ query to retrieve information from a list'
 
         public static void RemoveContact()
         {

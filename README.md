@@ -1,14 +1,14 @@
 # contact-manager
 
-My C# project is a contact manager application that hosts a list of contacts, allows contacts to be added or removed and displays all contacts added.
+My C# project is a contact manager application that creates a list of contacts by allowing contacts to be added or removed and can display all contacts added or give the user the option to exit the program; the list clears when the program is exited.
 
 # Basic Requirements
 
 *Create at least one class:
- *I will create a Contact class to satisfy this requirement
+ *I created a Contact class to satisfy this requirement
 
 *Create at least one object:
- *I will create a Contact object to satisfy this requirement 
+ *I created a Contact object to satisfy this requirement 
 
 (Using and displaying the data in the application)
 
@@ -16,6 +16,7 @@ My C# project is a contact manager application that hosts a list of contacts, al
  * add contact
  * remove contact
  * display all contacts
+ * may need to add one more that returns a value 
 
 # Feature Requirements
 
@@ -26,4 +27,4 @@ My C# project is a contact manager application that hosts a list of contacts, al
 
 # Special Instructions
 
-* 
+* This program is case sensitive. When selecting a task to run, make sure to use all lowercase letters for your selection.
