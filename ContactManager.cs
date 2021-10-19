@@ -16,7 +16,9 @@ namespace contact_manager
                 switch (selection)
                 {
                     case "add contact":
-                        Contact.AddContact();
+                        var contact = Contact.AddContact();
+                        Console.WriteLine("--------------------------------");
+                        Console.WriteLine("\nContact added.\n");
                         break;
                     case "remove contact":
                         Contact.RemoveContact();

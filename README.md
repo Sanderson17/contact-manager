@@ -16,7 +16,6 @@ My C# project is a contact manager application that creates a list of contacts b
  * add contact
  * remove contact
  * display all contacts
- * may need to add one more that returns a value 
 
 # Feature Requirements
 

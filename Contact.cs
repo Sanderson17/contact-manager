@@ -21,7 +21,7 @@ namespace contact_manager
 
         // the 1st method to meet the basic requirement 'add 3 methods'
 
-        public static void AddContact()
+        public static Contact AddContact()
         {
             Contact contact = new();
 
@@ -33,11 +33,8 @@ namespace contact_manager
 
             Console.Write("Enter Phone Number: ");
             contact.PhoneNumber = Console.ReadLine();
-
             Contacts.Add(contact);
-
-            Console.WriteLine("\nContact added. \n\nHit 'Enter' to display the main menu.");
-            Console.ReadLine();
+            return contact;
         }
 
         // the 2nd method to meet the basic requirement 'add 3 methods' and feature requirement 'visual data representation'
@@ -89,6 +86,6 @@ namespace contact_manager
             Console.WriteLine("\nContact removed. \n\nHit 'Enter' to display the main menu.");
             Console.ReadLine();
         }
-    }   
+    }
 }
 

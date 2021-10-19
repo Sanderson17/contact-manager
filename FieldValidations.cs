@@ -2,10 +2,10 @@
 
 namespace contact_manager
 {
-    class FieldValidations
+    public static class FieldValidations
     {
-
-
+        public static void ThrowIfNullOrEmpty(string argumentValue)
+        { }
 
     }
 }
