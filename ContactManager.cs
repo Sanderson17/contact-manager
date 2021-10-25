@@ -17,6 +17,7 @@ namespace contact_manager
                 {
                     case "add contact":
                         var contact = Contact.AddContact();
+                        Contact.Contacts.Add(contact);
                         Console.WriteLine("--------------------------------");
                         Console.WriteLine("\nContact added.\n");
                         break;
