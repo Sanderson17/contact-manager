@@ -19,7 +19,7 @@ namespace contact_manager
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
 
-        // the 1st method to meet the basic requirement 'add 3 methods'
+        // the 1st method to meet the basic requirement 'add 3 methods' (returns a value)
 
         public static Contact AddContact()
         {
