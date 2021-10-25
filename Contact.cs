@@ -33,7 +33,6 @@ namespace contact_manager
 
             Console.Write("Enter Phone Number: ");
             contact.PhoneNumber = Console.ReadLine();
-            Contacts.Add(contact);
             return contact;
         }
 

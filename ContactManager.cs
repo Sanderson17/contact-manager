@@ -10,7 +10,7 @@ namespace contact_manager
 
             do
             {
-                Console.WriteLine("Please select a task to run (add contact, remove contact, display contacts or exit program): ");
+                Console.Write("Please select a task to run (add contact, remove contact, display contacts or exit program): ");
                 string selection = Console.ReadLine();
 
                 switch (selection)
